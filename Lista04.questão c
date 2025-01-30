@@ -1,0 +1,25 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Você possui diploma de ensino superior? ");
+			string diploma = Console.ReadLine().ToLower();
+			Console.WriteLine("Qual a sua idade? ");
+			int idade = int.Parse(Console.ReadLine());
+			
+			if (idade >= 21 && diploma == "sim"){
+				Console.WriteLine("Parabêns, você está classificado para a vaga.");
+			
+			}else{
+				Console.WriteLine("Você não é classificado para essa vaga.");
+			}
+			
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
