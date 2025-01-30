@@ -1,5 +1,6 @@
 # PATrilhasAtiv04
 Lista 04
+
 a) Escreva um programa que pergunte ao usuário sua idade e se tem carteira de
 motorista. Se o usuário tiver mais de 18 anos e possuir carteira de motorista,
 o programa deve imprimir "Você pode dirigir".
@@ -69,6 +70,7 @@ uma operação. Se a resposta for negativa, o programa deve imprimir "Por
 favor, confirme o cancelamento da operação".
 
 Lista 05
+
 a) Verifique se um número é par ou ímpar.
 
 b) Encontre o maior entre dois números.
