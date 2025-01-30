@@ -1,0 +1,25 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Você deseja comprar um carro novo?");
+			string newCar = Console.ReadLine().ToLower();
+			Console.WriteLine("Você tem dinheiro suficiente para isso? ");
+			string carta = Console.ReadLine().ToLower();
+			
+			if (newCar == "sim" && carta == "sim"){
+				Console.WriteLine("Parabéns você pode comprar um carro novo.");
+			
+			}else{
+				Console.WriteLine("Você não pode comprar um carro novo");
+			}
+			
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
