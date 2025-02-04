@@ -11,7 +11,7 @@ namespace Exercicíos
 			Console.Write("Deseja adicionar leite no seu café? ");
 			string leite = Console.ReadLine().ToLower();
 			
-			if( acucar == "sim" && leite == "sim"){
+			if( acucar == "sim" || leite == "sim"){
 				Console.WriteLine("Café com adicional preparado!");
 			}else{
 				Console.WriteLine("Café sem adicional");
