@@ -65,6 +65,7 @@ do clube".
 n) Crie um programa que peça ao usuário para digitar uma palavra e verifique
 se ela não é vazia. Se a condição for verdadeira, o programa deve imprimir
 "A palavra não é vazia".
+
 o) Escreva um programa que pergunte ao usuário se ele não deseja cancelar
 uma operação. Se a resposta for negativa, o programa deve imprimir "Por 
 favor, confirme o cancelamento da operação".
