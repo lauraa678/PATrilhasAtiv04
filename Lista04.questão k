@@ -1,0 +1,22 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.Write("Você é um robô?(sim ou não) ");
+			string robo = Console.ReadLine().ToLower();
+			
+			if(robo == "nao"){
+				Console.WriteLine("Por favor, prove que você não é um robô");
+			}else{
+				Console.WriteLine("SAIA!! Exterminador da Cyberdyne Systems Modelo 101 Série 800");
+			}
+				
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
