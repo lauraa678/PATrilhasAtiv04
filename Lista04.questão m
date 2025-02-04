@@ -1,0 +1,22 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.Write("Você é um membro inativo de um clube? (sim ou não)");
+			string resposta = Console.ReadLine();
+			
+			if(resposta == "nao"){
+				Console.WriteLine("Por favor, atualize sua inscrição para continuar usufruindo dos benefícios do clube.");
+			}else{
+				Console.WriteLine("Faça sua inscrição e aproveite o que o clube tem a oferecer.");
+			}
+				
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
