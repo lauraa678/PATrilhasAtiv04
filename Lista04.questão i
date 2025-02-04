@@ -1,0 +1,22 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.Write("Qual o seu nome? ");
+			string nome = Console.ReadLine();
+			
+			if( nome == "Wilson" || nome == "Gloria" ){
+				Console.WriteLine("Olá, bem-vindo(a) de volta!");
+			}else{
+				Console.WriteLine("Seu nome não está cadastrado.");
+			}
+				
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
