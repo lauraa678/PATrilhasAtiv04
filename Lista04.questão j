@@ -1,0 +1,22 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.Write("Digite um número inteiro: ");
+			int numero = int.Parse(Console.ReadLine());
+			
+			if(numero < 10 || numero > 0){
+				Console.WriteLine("Número inválido.");
+			}else{
+				Console.WriteLine("Ok!");
+			}
+				
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
