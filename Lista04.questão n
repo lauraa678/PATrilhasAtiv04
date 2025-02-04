@@ -1,0 +1,22 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.Write("Digite uma palavra qualquer: ");
+			string resposta = Console.ReadLine();
+			
+			if(resposta.Length == 0){
+				Console.WriteLine("Palavra vazia");
+			}else{
+				Console.WriteLine("A palavra não é vazia");
+			}
+				
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
