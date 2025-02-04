@@ -1,0 +1,24 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.Write("Deseja adicionar açúcar no seu café? ");
+			string acucar = Console.ReadLine().ToLower();
+			Console.Write("Deseja adicionar leite no seu café? ");
+			string leite = Console.ReadLine().ToLower();
+			
+			if( acucar == "sim" && leite == "sim"){
+				Console.WriteLine("Café com adicional preparado!");
+			}else{
+				Console.WriteLine("Café sem adicional");
+			}
+				
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
