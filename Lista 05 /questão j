@@ -1,0 +1,17 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			string bla = "";
+			string variavel = (string.IsNullOrEmpty(bla))? "A variavel é nula." : "A algo na variável.";
+			Console.WriteLine(variavel);
+			
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
