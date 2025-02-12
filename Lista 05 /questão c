@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			List<int> lista = new List<int>();
+			lista.Add(18);
+			
+			String resultado = (lista.Count == 0) ? "Lista vazia" : "Lista contém elementos";
+			Console.WriteLine(resultado);
+			
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
