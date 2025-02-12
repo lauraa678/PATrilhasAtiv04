@@ -1,0 +1,18 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			int numero = -18;
+			
+			int absoluto = (numero < 0)? -numero : numero;
+			Console.WriteLine(absoluto);
+			
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
