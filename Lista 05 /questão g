@@ -1,0 +1,18 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			int numero = -5;
+			
+			string resultado = (numero > 0)? "Positivo" : (numero < 0) ? "Negativo" : "Zero";
+			Console.WriteLine(resultado);
+			
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
